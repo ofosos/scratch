@@ -1,1 +1,6 @@
 A scratch repository for stuff I'm working on.
+
+gen-shinken.py
+  - simple python random configuration generator for shiknken
+    needs a wordlist.shinken file in the same directory
+    templates included in the .py
