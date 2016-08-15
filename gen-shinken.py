@@ -10,7 +10,7 @@ host_template = Template("""define host {
   alias The Bogus Host {{ host }}
   hostgroups {{ hostgroup }}
   address 127.0.0.1
-  check_command check_host_alive
+  check_command check_dummy!0!Very well
   check_interval 5
   retry_interval 1
   max_check_attempts 5
@@ -28,7 +28,7 @@ host_template = Template("""define host {
 service_template = Template("""define service {
   host_name {{ host }}
   service_description {{ service }}
-  check_command check_ping
+  check_command check_dummy!0!Very well
   max_check_attempts 5
   check_interval 5
   retry_interval 1
