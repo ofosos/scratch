@@ -49,7 +49,7 @@ hostgroup_template = Template("""define hostgroup {
 
 words = [ x.rstrip() for x in open(wordlist) ]
 
-hostgroups = random.sample(words, 40)
+hostgroups = random.sample(words, 400)
 
 for hostgroup in hostgroups:
     print hostgroup_template.render(hostgroup=hostgroup)
