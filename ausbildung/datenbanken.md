@@ -4,7 +4,7 @@ Für diese Aufgaben gehen wir davon aus, das die Azubis im zweiten oder dritten 
 
 ## Kontext aufbauen
 
-Relationales Modell im Vergleich zu dessen Vorgaengern.
+### Relationales Modell im Vergleich zu dessen Vorgaengern.
 
 @article{Codd:1982:RDP:358396.358400,
  author = {Codd, E. F.},
@@ -28,7 +28,7 @@ Relationales Modell im Vergleich zu dessen Vorgaengern.
 
 Codd war der Vater des relationalen Modells (https://en.wikipedia.org/wiki/Relational_model). Datieren kann man das RM auf 1970. Der Artikel ist Codds Perspektiver auf das relationale Modell, 12 Jahre nach dessen Erstpublikation. Der Artikel stellt die Rede anlaesslich der Verleihung des Turing Preises an ihn dar.
 
-Relationales Modell heute im Verlgeich zu verteilten Systemen (~NoSQL, MapRed)
+### Relationales Modell heute im Verlgeich zu neueren Systemen
 
 @article{Helland:2016:SSS:2975594.2948983,
  author = {Helland, Pat},
@@ -50,4 +50,12 @@ Relationales Modell heute im Verlgeich zu verteilten Systemen (~NoSQL, MapRed)
  }
 
 Helland ist Industrie-Veteran, hat seit den 80ern an relationalen und arbeitet seit Mitte der 2000er Jahre mit verteilten Systemen und aeussert sich ueber die deutlichen Staerken von SQL, aber auch dessen Schwaechen.
+
+### NoSql & NewSql
+
+Spanner & F1
+
+### Hybrid Transactional Analytical Processing
+
+http://hyper-db.de/
 
