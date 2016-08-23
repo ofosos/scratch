@@ -59,3 +59,39 @@ Spanner & F1
 
 http://hyper-db.de/
 
+
+## Parallelitaet
+
+Erlaeterung der Serialisierbarkeit (bereits eingefuhert in Helland:2016). Umsetzung mit MVCC (MSSQL und PG).
+
+
+## Performance
+
+Erlaeuterung, wozu Indizes gut sind. In-memory join vs. temp. Tabellen. Wichtigstes Kriterium in der Praxis: Join Order.
+
+### Join Order Benchmark
+
+@article{Leis:2015:GQO:2850583.2850594,
+ author = {Leis, Viktor and Gubichev, Andrey and Mirchev, Atanas and Boncz, Peter and Kemper, Alfons and Neumann, Thomas},
+ title = {How Good Are Query Optimizers, Really?},
+ journal = {Proc. VLDB Endow.},
+ issue_date = {November 2015},
+ volume = {9},
+ number = {3},
+ month = nov,
+ year = {2015},
+ issn = {2150-8097},
+ pages = {204--215},
+ numpages = {12},
+ url = {http://dx.doi.org/10.14778/2850583.2850594},
+ doi = {10.14778/2850583.2850594},
+ acmid = {2850594},
+ publisher = {VLDB Endowment},
+}
+
+Downloads:
+ - ftp://ftp.fu-berlin.de/pub/misc/movies/database/
+ - http://www-db.in.tum.de/~leis/qo/job.tgz
+ - imdbpy (bei Arch als Paket installieren ansonsten `pip ...`)
+
+
