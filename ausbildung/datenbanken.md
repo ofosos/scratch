@@ -86,6 +86,7 @@ select foo from bar inner join boz on bar.froboz = boz.frobnik
 `Explain extended` gibt den query plan aus, `\G` sorgt dafuer das die
 Ausgabe besser lesbar ist.
 
+https://dev.mysql.com/doc/refman/5.5/en/execution-plan-information.html
 
 ### Buffer / Cache
 
