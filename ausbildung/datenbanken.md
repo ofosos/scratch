@@ -67,7 +67,33 @@ Erlaeterung der Serialisierbarkeit (bereits eingefuhert in Helland:2016). Umsetz
 
 ## Performance
 
-Erlaeuterung, wozu Indizes gut sind. In-memory join vs. temp. Tabellen. Wichtigstes Kriterium in der Praxis: Join Order.
+Erlaeuterung, wozu Indizes gut sind. In-memory join vs. temp. Tabellen. Praxis: Index-Nutzung, Buffer Hitrate und Join Order.
+
+```
+log_slow_queries  = /var/log/mysql/mysql-slow.log
+long_query_time  = 1
+log-queries-not-using-indexes
+```
+
+### Index Nutzung
+
+```
+EXPLAIN EXTENDED
+select foo from bar inner join boz on bar.froboz = boz.frobnik
+\G;
+```
+
+`Explain extended` gibt den query plan aus, `\G` sorgt dafuer das die
+Ausgabe besser lesbar ist.
+
+
+### Buffer / Cache
+
+Cache Hit Rate. Datenbank Buffer vs. OS Buffer. Groessenunterschied
+zwischen Hauptspeicher und Festplatte.
+
+https://www.percona.com/blog/2007/11/03/choosing-innodb_buffer_pool_size/
+
 
 ### Join Order Benchmark
 
