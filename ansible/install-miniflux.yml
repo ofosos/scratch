@@ -1,0 +1,33 @@
+# Ansible playbook for configuring miniflux rss aggregator
+# assumes there's already a user 'miniflux' and associated db
+# need to create an admin user on the command line 'miniflux -create-admin'
+
+---
+
+- hosts: pi
+  become: yes
+
+  environment:
+    DATABASE_URL: "user=miniflux dbname=miniflux sslmode=disable host=/var/run/postgresql" 
+
+  tasks:
+  - name: Download release build
+    get_url:
+      url: https://github.com/miniflux/miniflux/releases/download/2.0.4/miniflux-linux-armv7
+      dest: /usr/local/bin/miniflux
+  - name: Make miniflux executable
+    file:
+      path: /usr/local/bin/miniflux
+      mode: u=rx,g=rx,o=rx
+  - name: set miniflux capabilities
+    command:
+      setcap cap_net_bind_service=+ep /usr/local/bin/miniflux
+  - name: template systemd service config
+    template:
+      src: miniflux.service
+      dest: /etc/systemd/system/miniflux.service
+  - name: Run migrations
+    command:
+      sudo -u miniflux DATABASE_URL="user=miniflux dbname=miniflux sslmode=disable host=/var/run/postgresql" /usr/local/bin/miniflux -migrate
+  - name: start systemd app service
+    systemd: name=miniflux.service state=restarted enabled=yes

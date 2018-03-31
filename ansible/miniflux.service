@@ -1,0 +1,14 @@
+[Unit]
+Description=Miniflux service
+After=network.target
+
+[Service]
+User=miniflux
+Group=miniflux
+WorkingDirectory=/home/miniflux
+Environment="DATABASE_URL=user=miniflux dbname=miniflux sslmode=disable host=/var/run/postgresql"
+Environment="LISTEN_ADDR=0.0.0.0:80"
+ExecStart=/usr/local/bin/miniflux
+
+[Install]
+WantedBy=multi-user.target
