@@ -1,24 +1,35 @@
-A scratch repository for stuff I'm working on.
+# Marks scratch repo
 
-ausbildung
+A scratch repository for public stuff I don't want to throw away.
+
+## ausbildung
   - stuff I planned for the vocational training at a former
     job (as an educator)
 
-monitoring/gen-shinken.py
-  - simple python random configuration generator for shinken
-    needs a wordlist.shinken file in the same directory
+## monitoring
+  - gen-shinken.py: simple python random configuration generator for
+    shinken needs a wordlist.shinken file in the same directory
     templates included in the .py
 
-apodpaper.pl
+## apodpaper.pl
+
   - fetch an Astronomy Picture of the Day
 
-ansible
+## ansible
+
   - misc ansible stuff for home use
 
-calendar
-  - automate calendar creation. A5 -> A4 signatures, ready to
-    bind. python / inkscape.
+## calendar
 
-notebook
-  - automate notebook creation. A5 -> A4 signatures, ready to
-    bind. dotted grid, numbered pages. python / postscript
+  - calendar-automation.py: automate calendar creation.
+    A5 -> A4 signatures, ready to
+    bind. python / inkscape. Requires external tools
+  - empty-a5.pdf: empty a5 pdf doc, for padding, create with
+    `convert xc:none -page A5 empty-a5.pdf`
+  - calendar-leftsvg.svg: left master page for calendar
+  - calendar-rightsvg.svg: right master page for calendar
+
+## notebook
+
+  - notebook-gen.py: automate notebook creation. A5 -> A4 signatures,
+	ready to bind. dotted grid, numbered pages. python / postscript
