@@ -13,7 +13,8 @@ A scratch repository for public stuff I don't want to throw away.
 
 ## apodpaper.pl
 
-  - fetch an Astronomy Picture of the Day
+  - fetch an Astronomy Picture of the Day and set it as your windows
+    background image
 
 ## ansible
 
