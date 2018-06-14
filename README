@@ -5,7 +5,7 @@ ausbildung
     job (as an educator)
 
 monitoring/gen-shinken.py
-  - simple python random configuration generator for shiknken
+  - simple python random configuration generator for shinken
     needs a wordlist.shinken file in the same directory
     templates included in the .py
 
