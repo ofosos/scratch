@@ -1,6 +1,24 @@
 A scratch repository for stuff I'm working on.
 
-gen-shinken.py
+ausbildung
+  - stuff I planned for the vocational training at a former
+    job (as an educator)
+
+monitoring/gen-shinken.py
   - simple python random configuration generator for shiknken
     needs a wordlist.shinken file in the same directory
     templates included in the .py
+
+apodpaper.pl
+  - fetch an Astronomy Picture of the Day
+
+ansible
+  - misc ansible stuff for home use
+
+calendar
+  - automate calendar creation. A5 -> A4 signatures, ready to
+    bind. python / inkscape.
+
+notebook
+  - automate notebook creation. A5 -> A4 signatures, ready to
+    bind. dotted grid, numbered pages. python / postscript
