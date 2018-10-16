@@ -34,3 +34,8 @@ A scratch repository for public stuff I don't want to throw away.
 
   - notebook-gen.py: automate notebook creation. A5 -> A4 signatures,
 	ready to bind. dotted grid, numbered pages. python / postscript
+
+## language
+
+  - anki-cs-gen.py: Script to generate Czech-German cards with TTS
+    output from an input of German-Czech cards without audio.
