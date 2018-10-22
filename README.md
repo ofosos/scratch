@@ -39,3 +39,8 @@ A scratch repository for public stuff I don't want to throw away.
 
   - anki-cs-gen.py: Script to generate Czech-German cards with TTS
     output from an input of German-Czech cards without audio.
+
+## remarkable-cups
+
+  - cups printer driver for the remarkable device / remarkable cloud
+
