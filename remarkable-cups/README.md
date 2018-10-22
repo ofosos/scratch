@@ -27,7 +27,13 @@ sure the user cups executes this script with has the corresponding
 Now copy `remarkable.sh` into `/usr/lib/cups/backend` and rename it to
 just `remarkable`.
 
-Create your printer and you should be good.
+Create your printer and you should be good. The backend takes a URL
+like `remarkable:/Print/Home` as a parameter. It will push all your
+files into the folder secified in that URL.
+
+```
+lpadmin -D 'my remarkable' -v -E remarkable:/Print/Home
+```
 
 # Notes
 
