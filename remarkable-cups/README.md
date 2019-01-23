@@ -28,11 +28,24 @@ Now copy `remarkable.sh` into `/usr/lib/cups/backend` and rename it to
 just `remarkable`.
 
 Create your printer and you should be good. The backend takes a URL
-like `remarkable:/Print/Home` as a parameter. It will push all your
+like `remarkable:/Print` as a parameter. It will push all your
 files into the folder secified in that URL.
 
+Note: The folder (E.g. "/Print") must exist on your reMarkable already.
+
 ```
-lpadmin -D 'my remarkable' -v -E remarkable:/Print/Home
+# Compile ppd driver & copy to somewhere where CUPS can find it.
+ppdc remarkable.drv; sudo cp ppd/remarkable.ppd /usr/share/cups/model/
+
+# Copy & rename CUPS backend script
+sudo cp remarkable.sh /usr/lib/cups/backend/remarkable
+
+# Secure permissions
+sudo chown root:root /usr/lib/cups/backend/remarkable
+sudo chmod 700 /usr/lib/cups/backend/remarkable
+
+# Add/Update "Remarkable" cups printer
+lpadmin -L 'Cloud Printer' -D 'my remarkable' -p "reMarkable" -E -v 'remarkable:/Print'
 ```
 
 # Notes
