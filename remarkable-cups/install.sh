@@ -18,4 +18,4 @@ sudo chmod 700 /usr/lib/cups/backend/remarkable
 # Add/Update "Remarkable" cups printer
 sudo lpadmin -L 'Cloud Printer' -D 'my remarkable' -p "reMarkable" -E -v 'remarkable:/Print'
 
-echo "All done ׋, happy printing! "
+echo "All done ✓, happy printing! "
