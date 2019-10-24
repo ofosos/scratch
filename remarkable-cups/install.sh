@@ -1,4 +1,4 @@
-! /usr/bin/env bash
+#! /usr/bin/env bash
 
 # Set bash to stop execution on failed commands. For sanity and safety
 set -e
