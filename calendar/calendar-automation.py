@@ -60,8 +60,15 @@ gensvg = []
 last_day = dt.date(1970, 1, 1)
 
 for i in range(lengthmonths):
+    if startmonth + i > 12:
+        xyear = year + 1
+        xmonth = startmonth + i - 12
+    else:
+        xyear = year
+        xmonth = startmonth + i
+
     c = cal.Calendar(cal.MONDAY)
-    weeks = c.monthdatescalendar(year, startmonth + i)
+    weeks = c.monthdatescalendar(xyear, xmonth)
 
     for week in weeks:
         if week[0] <= last_day:
@@ -69,8 +76,8 @@ for i in range(lengthmonths):
 
         ip_dict = {}
 
-        ip_dict['year'] = str(year)
-        ip_dict['month'] = str(startmonth + i)
+        ip_dict['year'] = str(xyear)
+        ip_dict['month'] = str(xmonth)
         ip_dict['week'] = str(week[0].isocalendar()[1])
         ip_dict['monday'] = str(week[0].day)
         ip_dict['tuesday'] = str(week[1].day)
