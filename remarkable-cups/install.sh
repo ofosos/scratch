@@ -27,10 +27,12 @@ else
     echo "$FILE does not exist, please authenticate with .rmapi file"
 fi
 
-echo "Do you want to print a test page? (y/n)"
+echo "Do you want to print a test page?"
+read -p 'test page? (y/N): ' tp
 
-cowsay "Howdy there! Hopefully this printer works! Cheers to RMS!" |pandoc -o /tmp/test.pdf
-
-lp -d reMarkable /tmp/test.pdf
+if [ "$tp" = "y" ]; then
+    cowsay "Howdy there! Hopefully this printer works! Cheers to RMS!" |pandoc -o /tmp/test.pdf
+    lp -d reMarkable /tmp/test.pdf
+fi
 
 echo "All done ✓, happy printing! "
