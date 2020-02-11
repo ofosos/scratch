@@ -7,7 +7,12 @@ jobcopies=${4}
 joboptions=${5}
 jobfile=${6}
 
+#Default value if templating does not find tha binary
 rmapi=/home/mark/gosrc/bin/rmapi
+
+#### Installation script will template a new path for rmapi-binary
+#TEMPLATED_BY_INSTALL
+#### End of templating
 
 printtime=$(date +%Y-%b-%d-%H-%M)
 sanitized_jobtitle="$(echo ${jobtitle} | tr [[:blank:]:/%\&=+?\\\\#\'\`\´\*] _)"

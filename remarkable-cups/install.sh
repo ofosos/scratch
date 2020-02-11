@@ -8,6 +8,19 @@ echo "Adding Unofficial remarkable printing driver"
 # Compile ppd driver & copy to somewhere where CUPS can find it.
 ppdc remarkable.drv; sudo cp ppd/remarkable.ppd /usr/share/cups/model/
 
+# Find rmapi binary
+RMAPI=$(which rmapi)
+if [ -f $RMAPI ]; then
+    # Escape all '/' from rmapi path in order to use sed later
+    RMAPI=$(echo $RMAPI|sed 's/\//\\\//g')
+    # Replace original rmapi-location from rmapi.sh
+    template='s/#TEMPLATED_BY_INSTALL/rmapi='$RMAPI'/'
+    sed -i $template remarkable.sh
+fi
+
+# TODO Copy rmapi binary to print user (root)
+# TODO Get rid of root user, use some lower privileged user for printing
+
 # Copy & rename CUPS backend script
 sudo cp remarkable.sh /usr/lib/cups/backend/remarkable
 
