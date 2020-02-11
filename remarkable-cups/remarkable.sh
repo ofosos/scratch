@@ -30,7 +30,7 @@ case ${#} in
 	fi
 	rm ${outname}
         ;;
-    
+
     6)
 	cat ${6} > ${outname}
         if [ ! -e ${DEVICE_URI#remarkable:} ]; then
