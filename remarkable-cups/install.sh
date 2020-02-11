@@ -44,8 +44,10 @@ echo "Do you want to print a test page?"
 read -p 'test page? (y/N): ' tp
 
 if [ "$tp" = "y" ]; then
-    cowsay "Howdy there! Hopefully this printer works! Cheers to RMS!" |pandoc -o /tmp/test.pdf
+    echo "Hi there! Hopefully this printer works! Cheers to RMS!" >> /tmp/rminstall.txt
+    pandoc -i /tmp/rminstall.txt -o /tmp/test.pdf
     lp -d reMarkable /tmp/test.pdf
+    #rm /tmp/test.pdf /tmp/rminstallcow
 fi
 
 echo "All done ✓, happy printing! "
