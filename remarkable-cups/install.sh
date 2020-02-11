@@ -18,4 +18,19 @@ sudo chmod 700 /usr/lib/cups/backend/remarkable
 # Add/Update "Remarkable" cups printer
 sudo lpadmin -L 'Cloud Printer' -D 'my remarkable' -p "reMarkable" -E -v 'remarkable:/Print'
 
+# Copy user credentials for printer driver user home
+FILE=~/.rmapi
+if [ -f "$FILE" ]; then
+    echo "Installing credentials for cups user (root in debian)"
+    sudo cp $FILE /root/
+else
+    echo "$FILE does not exist, please authenticate with .rmapi file"
+fi
+
+echo "Do you want to print a test page? (y/n)"
+
+cowsay "Howdy there! Hopefully this printer works! Cheers to RMS!" |pandoc -o /tmp/test.pdf
+
+lp -d reMarkable /tmp/test.pdf
+
 echo "All done ✓, happy printing! "
