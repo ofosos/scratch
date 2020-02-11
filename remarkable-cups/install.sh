@@ -47,7 +47,7 @@ if [ "$tp" = "y" ]; then
     echo "Hi there! Hopefully this printer works! Cheers to RMS!" >> /tmp/rminstall.txt
     pandoc -i /tmp/rminstall.txt -o /tmp/test.pdf
     lp -d reMarkable /tmp/test.pdf
-    #rm /tmp/test.pdf /tmp/rminstallcow
+    rm /tmp/test.pdf /tmp/rminstallcow
 fi
 
 echo "All done ✓, happy printing! "
