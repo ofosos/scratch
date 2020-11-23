@@ -10,7 +10,7 @@ jobfile=${6}
 rmapi=/home/mark/gosrc/bin/rmapi
 
 printtime=$(date +%Y-%b-%d-%H-%M)
-sanitized_jobtitle="$(echo ${jobtitle} | tr [[:blank:]:/%\&=+?\\\\#\'\`\´\*] _)"
+sanitized_jobtitle="$(echo ${jobtitle} | tr [[:blank:]:/%\&=+?\\\\#\'\`\´\*] _ | sed 's/ü/u/g;s/ä/a/g;s/ö/o/g;s/Ü/U/g;s/Ä/A/g;s/Ö/O/g;s/{\\ß}/ss/g' | cut -f 1 -d '.' ).pdf"
 outname=/tmp/${printtime}_${sanitized_jobtitle}
 
 case ${#} in
