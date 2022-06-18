@@ -44,3 +44,9 @@ A scratch repository for public stuff I don't want to throw away.
 
   - cups printer driver for the remarkable device / remarkable cloud
 
+## Buy me a coffee
+
+If you like the stuff here, you can buy me a coffee.
+
+<a href="https://www.buymeacoffee.com/markZb" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
+
