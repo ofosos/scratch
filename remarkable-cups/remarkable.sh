@@ -7,8 +7,13 @@ jobcopies=${4}
 joboptions=${5}
 jobfile=${6}
 
+#Default value if templating does not find tha binary
 rmapi=/home/mark/gosrc/bin/rmapi
 export RMAPI_CONFIG=$(eval echo ~${cupsuser}/.config/rmapi/rmapi.conf)
+
+#### Installation script will template a new path for rmapi-binary
+#TEMPLATED_BY_INSTALL
+#### End of templating
 
 printtime=$(date +%Y-%b-%d-%H-%M)
 sanitized_jobtitle="$(echo ${jobtitle} | tr [[:blank:]:/%\&=+?\\\\#\'\`\´\*] _ | sed 's/ü/u/g;s/ä/a/g;s/ö/o/g;s/Ü/U/g;s/Ä/A/g;s/Ö/O/g;s/{\\ß}/ss/g' | cut -f 1 -d '.' ).pdf"
@@ -31,7 +36,7 @@ case ${#} in
 	fi
 	rm ${outname}
         ;;
-    
+
     6)
 	cat ${6} > ${outname}
         if [ ! -e ${DEVICE_URI#remarkable:} ]; then
