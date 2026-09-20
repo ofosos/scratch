@@ -1,0 +1,1080 @@
+{
+  "westeurope": [
+    {
+      "eventtype": "DR",
+      "eventid": 1018332,
+      "episodeid": 21,
+      "eventname": "Europe-2026",
+      "name": "Drought in Austria, Bosnia  and  Herzegovina, Belgium, Belarus, Switzerland, Czech Republic, Germany, Denmark, Spain, France, Croatia, Hungary, Ireland, Italy, Liechtenstein, Luxembourg, Netherlands, Poland, Romania, Serbia, Sweden, Slovenia, Slovakia, San Marino, Ukraine, , ",
+      "description": "Drought in Austria, Bosnia  and  Herzegovina, Belgium, Belarus, Switzerland, Czech Republic, Germany, Denmark, Spain, France, Croatia, Hungary, Ireland, Italy, Liechtenstein, Luxembourg, Netherlands, Poland, Romania, Serbia, Sweden, Slovenia, Slovakia, San Marino, Ukraine, , ",
+      "alertlevel": "Orange",
+      "alertscore": 2,
+      "fromdate": "2025-12-21T00:00:00",
+      "todate": "2026-09-18T00:00:00",
+      "country": "Austria, Bosnia & Herzegovina, Belgium, Belarus, Switzerland, Czech Republic, Germany, Denmark, Spain, France, Croatia, Hungary, Ireland, Italy, Liechtenstein, Luxembourg, Netherlands, Poland, Romania, Serbia, Sweden, Slovenia, Slovakia, San Marino, Ukraine, , ",
+      "iso3": "AUT",
+      "severitydata": {
+        "severity": 1431152.0,
+        "severitytext": "Medium impact for agricultural drought in 1431152 km2",
+        "severityunit": "km2"
+      },
+      "glide": "DR-2025-000239-ALB",
+      "geometry_source": "getgeometry-polygon",
+      "url_geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=DR&eventid=1018332&episodeid=21",
+      "url_report": "https://www.gdacs.org/report.aspx?eventid=1018332&episodeid=21&eventtype=DR",
+      "matched_azure_regions": [
+        "westeurope",
+        "northeurope",
+        "germanywestcentral",
+        "francecentral",
+        "switzerlandnorth",
+        "switzerlandwest",
+        "uksouth",
+        "ukwest",
+        "swedensouth",
+        "italynorth"
+      ]
+    },
+    {
+      "eventtype": "FL",
+      "eventid": 1100958,
+      "episodeid": 1,
+      "eventname": "Germany",
+      "name": "Flood in Germany",
+      "description": "Flood in Germany",
+      "alertlevel": "Orange",
+      "alertscore": 2,
+      "fromdate": "2021-07-13T01:00:00",
+      "todate": "2021-07-15T01:00:00",
+      "country": "Germany",
+      "iso3": "DEU",
+      "severitydata": {
+        "severity": 0.0,
+        "severitytext": "Magnitude 0 ",
+        "severityunit": ""
+      },
+      "glide": "",
+      "geometry_source": "getgeometry-polygon",
+      "url_geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=FL&eventid=1100958&episodeid=1",
+      "url_report": "https://www.gdacs.org/report.aspx?eventid=1100958&episodeid=1&eventtype=FL",
+      "matched_azure_regions": [
+        "westeurope",
+        "germanywestcentral"
+      ]
+    }
+  ],
+  "northeurope": [
+    {
+      "eventtype": "DR",
+      "eventid": 1018332,
+      "episodeid": 21,
+      "eventname": "Europe-2026",
+      "name": "Drought in Austria, Bosnia  and  Herzegovina, Belgium, Belarus, Switzerland, Czech Republic, Germany, Denmark, Spain, France, Croatia, Hungary, Ireland, Italy, Liechtenstein, Luxembourg, Netherlands, Poland, Romania, Serbia, Sweden, Slovenia, Slovakia, San Marino, Ukraine, , ",
+      "description": "Drought in Austria, Bosnia  and  Herzegovina, Belgium, Belarus, Switzerland, Czech Republic, Germany, Denmark, Spain, France, Croatia, Hungary, Ireland, Italy, Liechtenstein, Luxembourg, Netherlands, Poland, Romania, Serbia, Sweden, Slovenia, Slovakia, San Marino, Ukraine, , ",
+      "alertlevel": "Orange",
+      "alertscore": 2,
+      "fromdate": "2025-12-21T00:00:00",
+      "todate": "2026-09-18T00:00:00",
+      "country": "Austria, Bosnia & Herzegovina, Belgium, Belarus, Switzerland, Czech Republic, Germany, Denmark, Spain, France, Croatia, Hungary, Ireland, Italy, Liechtenstein, Luxembourg, Netherlands, Poland, Romania, Serbia, Sweden, Slovenia, Slovakia, San Marino, Ukraine, , ",
+      "iso3": "AUT",
+      "severitydata": {
+        "severity": 1431152.0,
+        "severitytext": "Medium impact for agricultural drought in 1431152 km2",
+        "severityunit": "km2"
+      },
+      "glide": "DR-2025-000239-ALB",
+      "geometry_source": "getgeometry-polygon",
+      "url_geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=DR&eventid=1018332&episodeid=21",
+      "url_report": "https://www.gdacs.org/report.aspx?eventid=1018332&episodeid=21&eventtype=DR",
+      "matched_azure_regions": [
+        "westeurope",
+        "northeurope",
+        "germanywestcentral",
+        "francecentral",
+        "switzerlandnorth",
+        "switzerlandwest",
+        "uksouth",
+        "ukwest",
+        "swedensouth",
+        "italynorth"
+      ]
+    }
+  ],
+  "germanynorth": [],
+  "germanywestcentral": [
+    {
+      "eventtype": "DR",
+      "eventid": 1018332,
+      "episodeid": 21,
+      "eventname": "Europe-2026",
+      "name": "Drought in Austria, Bosnia  and  Herzegovina, Belgium, Belarus, Switzerland, Czech Republic, Germany, Denmark, Spain, France, Croatia, Hungary, Ireland, Italy, Liechtenstein, Luxembourg, Netherlands, Poland, Romania, Serbia, Sweden, Slovenia, Slovakia, San Marino, Ukraine, , ",
+      "description": "Drought in Austria, Bosnia  and  Herzegovina, Belgium, Belarus, Switzerland, Czech Republic, Germany, Denmark, Spain, France, Croatia, Hungary, Ireland, Italy, Liechtenstein, Luxembourg, Netherlands, Poland, Romania, Serbia, Sweden, Slovenia, Slovakia, San Marino, Ukraine, , ",
+      "alertlevel": "Orange",
+      "alertscore": 2,
+      "fromdate": "2025-12-21T00:00:00",
+      "todate": "2026-09-18T00:00:00",
+      "country": "Austria, Bosnia & Herzegovina, Belgium, Belarus, Switzerland, Czech Republic, Germany, Denmark, Spain, France, Croatia, Hungary, Ireland, Italy, Liechtenstein, Luxembourg, Netherlands, Poland, Romania, Serbia, Sweden, Slovenia, Slovakia, San Marino, Ukraine, , ",
+      "iso3": "AUT",
+      "severitydata": {
+        "severity": 1431152.0,
+        "severitytext": "Medium impact for agricultural drought in 1431152 km2",
+        "severityunit": "km2"
+      },
+      "glide": "DR-2025-000239-ALB",
+      "geometry_source": "getgeometry-polygon",
+      "url_geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=DR&eventid=1018332&episodeid=21",
+      "url_report": "https://www.gdacs.org/report.aspx?eventid=1018332&episodeid=21&eventtype=DR",
+      "matched_azure_regions": [
+        "westeurope",
+        "northeurope",
+        "germanywestcentral",
+        "francecentral",
+        "switzerlandnorth",
+        "switzerlandwest",
+        "uksouth",
+        "ukwest",
+        "swedensouth",
+        "italynorth"
+      ]
+    },
+    {
+      "eventtype": "FL",
+      "eventid": 1100958,
+      "episodeid": 1,
+      "eventname": "Germany",
+      "name": "Flood in Germany",
+      "description": "Flood in Germany",
+      "alertlevel": "Orange",
+      "alertscore": 2,
+      "fromdate": "2021-07-13T01:00:00",
+      "todate": "2021-07-15T01:00:00",
+      "country": "Germany",
+      "iso3": "DEU",
+      "severitydata": {
+        "severity": 0.0,
+        "severitytext": "Magnitude 0 ",
+        "severityunit": ""
+      },
+      "glide": "",
+      "geometry_source": "getgeometry-polygon",
+      "url_geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=FL&eventid=1100958&episodeid=1",
+      "url_report": "https://www.gdacs.org/report.aspx?eventid=1100958&episodeid=1&eventtype=FL",
+      "matched_azure_regions": [
+        "westeurope",
+        "germanywestcentral"
+      ]
+    }
+  ],
+  "francecentral": [
+    {
+      "eventtype": "DR",
+      "eventid": 1018332,
+      "episodeid": 21,
+      "eventname": "Europe-2026",
+      "name": "Drought in Austria, Bosnia  and  Herzegovina, Belgium, Belarus, Switzerland, Czech Republic, Germany, Denmark, Spain, France, Croatia, Hungary, Ireland, Italy, Liechtenstein, Luxembourg, Netherlands, Poland, Romania, Serbia, Sweden, Slovenia, Slovakia, San Marino, Ukraine, , ",
+      "description": "Drought in Austria, Bosnia  and  Herzegovina, Belgium, Belarus, Switzerland, Czech Republic, Germany, Denmark, Spain, France, Croatia, Hungary, Ireland, Italy, Liechtenstein, Luxembourg, Netherlands, Poland, Romania, Serbia, Sweden, Slovenia, Slovakia, San Marino, Ukraine, , ",
+      "alertlevel": "Orange",
+      "alertscore": 2,
+      "fromdate": "2025-12-21T00:00:00",
+      "todate": "2026-09-18T00:00:00",
+      "country": "Austria, Bosnia & Herzegovina, Belgium, Belarus, Switzerland, Czech Republic, Germany, Denmark, Spain, France, Croatia, Hungary, Ireland, Italy, Liechtenstein, Luxembourg, Netherlands, Poland, Romania, Serbia, Sweden, Slovenia, Slovakia, San Marino, Ukraine, , ",
+      "iso3": "AUT",
+      "severitydata": {
+        "severity": 1431152.0,
+        "severitytext": "Medium impact for agricultural drought in 1431152 km2",
+        "severityunit": "km2"
+      },
+      "glide": "DR-2025-000239-ALB",
+      "geometry_source": "getgeometry-polygon",
+      "url_geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=DR&eventid=1018332&episodeid=21",
+      "url_report": "https://www.gdacs.org/report.aspx?eventid=1018332&episodeid=21&eventtype=DR",
+      "matched_azure_regions": [
+        "westeurope",
+        "northeurope",
+        "germanywestcentral",
+        "francecentral",
+        "switzerlandnorth",
+        "switzerlandwest",
+        "uksouth",
+        "ukwest",
+        "swedensouth",
+        "italynorth"
+      ]
+    },
+    {
+      "eventtype": "WF",
+      "eventid": 1029489,
+      "episodeid": 3,
+      "eventname": "",
+      "name": "Forest fires in France",
+      "description": "Forest fires in France",
+      "alertlevel": "Orange",
+      "alertscore": 2,
+      "fromdate": "2026-07-12T00:00:00",
+      "todate": "2026-07-14T00:00:00",
+      "country": "France",
+      "iso3": "FRA",
+      "severitydata": {
+        "severity": 2280.0,
+        "severitytext": "Orange impact for forestfire in 2280 ha",
+        "severityunit": "ha"
+      },
+      "glide": "WF-2026-000112-FRA",
+      "geometry_source": "getgeometry-polygon",
+      "url_geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=WF&eventid=1029489&episodeid=3",
+      "url_report": "https://www.gdacs.org/report.aspx?eventid=1029489&episodeid=3&eventtype=WF",
+      "matched_azure_regions": [
+        "francecentral"
+      ]
+    }
+  ],
+  "francesouth": [],
+  "switzerlandnorth": [
+    {
+      "eventtype": "DR",
+      "eventid": 1018332,
+      "episodeid": 21,
+      "eventname": "Europe-2026",
+      "name": "Drought in Austria, Bosnia  and  Herzegovina, Belgium, Belarus, Switzerland, Czech Republic, Germany, Denmark, Spain, France, Croatia, Hungary, Ireland, Italy, Liechtenstein, Luxembourg, Netherlands, Poland, Romania, Serbia, Sweden, Slovenia, Slovakia, San Marino, Ukraine, , ",
+      "description": "Drought in Austria, Bosnia  and  Herzegovina, Belgium, Belarus, Switzerland, Czech Republic, Germany, Denmark, Spain, France, Croatia, Hungary, Ireland, Italy, Liechtenstein, Luxembourg, Netherlands, Poland, Romania, Serbia, Sweden, Slovenia, Slovakia, San Marino, Ukraine, , ",
+      "alertlevel": "Orange",
+      "alertscore": 2,
+      "fromdate": "2025-12-21T00:00:00",
+      "todate": "2026-09-18T00:00:00",
+      "country": "Austria, Bosnia & Herzegovina, Belgium, Belarus, Switzerland, Czech Republic, Germany, Denmark, Spain, France, Croatia, Hungary, Ireland, Italy, Liechtenstein, Luxembourg, Netherlands, Poland, Romania, Serbia, Sweden, Slovenia, Slovakia, San Marino, Ukraine, , ",
+      "iso3": "AUT",
+      "severitydata": {
+        "severity": 1431152.0,
+        "severitytext": "Medium impact for agricultural drought in 1431152 km2",
+        "severityunit": "km2"
+      },
+      "glide": "DR-2025-000239-ALB",
+      "geometry_source": "getgeometry-polygon",
+      "url_geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=DR&eventid=1018332&episodeid=21",
+      "url_report": "https://www.gdacs.org/report.aspx?eventid=1018332&episodeid=21&eventtype=DR",
+      "matched_azure_regions": [
+        "westeurope",
+        "northeurope",
+        "germanywestcentral",
+        "francecentral",
+        "switzerlandnorth",
+        "switzerlandwest",
+        "uksouth",
+        "ukwest",
+        "swedensouth",
+        "italynorth"
+      ]
+    }
+  ],
+  "switzerlandwest": [
+    {
+      "eventtype": "DR",
+      "eventid": 1018332,
+      "episodeid": 21,
+      "eventname": "Europe-2026",
+      "name": "Drought in Austria, Bosnia  and  Herzegovina, Belgium, Belarus, Switzerland, Czech Republic, Germany, Denmark, Spain, France, Croatia, Hungary, Ireland, Italy, Liechtenstein, Luxembourg, Netherlands, Poland, Romania, Serbia, Sweden, Slovenia, Slovakia, San Marino, Ukraine, , ",
+      "description": "Drought in Austria, Bosnia  and  Herzegovina, Belgium, Belarus, Switzerland, Czech Republic, Germany, Denmark, Spain, France, Croatia, Hungary, Ireland, Italy, Liechtenstein, Luxembourg, Netherlands, Poland, Romania, Serbia, Sweden, Slovenia, Slovakia, San Marino, Ukraine, , ",
+      "alertlevel": "Orange",
+      "alertscore": 2,
+      "fromdate": "2025-12-21T00:00:00",
+      "todate": "2026-09-18T00:00:00",
+      "country": "Austria, Bosnia & Herzegovina, Belgium, Belarus, Switzerland, Czech Republic, Germany, Denmark, Spain, France, Croatia, Hungary, Ireland, Italy, Liechtenstein, Luxembourg, Netherlands, Poland, Romania, Serbia, Sweden, Slovenia, Slovakia, San Marino, Ukraine, , ",
+      "iso3": "AUT",
+      "severitydata": {
+        "severity": 1431152.0,
+        "severitytext": "Medium impact for agricultural drought in 1431152 km2",
+        "severityunit": "km2"
+      },
+      "glide": "DR-2025-000239-ALB",
+      "geometry_source": "getgeometry-polygon",
+      "url_geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=DR&eventid=1018332&episodeid=21",
+      "url_report": "https://www.gdacs.org/report.aspx?eventid=1018332&episodeid=21&eventtype=DR",
+      "matched_azure_regions": [
+        "westeurope",
+        "northeurope",
+        "germanywestcentral",
+        "francecentral",
+        "switzerlandnorth",
+        "switzerlandwest",
+        "uksouth",
+        "ukwest",
+        "swedensouth",
+        "italynorth"
+      ]
+    }
+  ],
+  "uksouth": [
+    {
+      "eventtype": "DR",
+      "eventid": 1018332,
+      "episodeid": 21,
+      "eventname": "Europe-2026",
+      "name": "Drought in Austria, Bosnia  and  Herzegovina, Belgium, Belarus, Switzerland, Czech Republic, Germany, Denmark, Spain, France, Croatia, Hungary, Ireland, Italy, Liechtenstein, Luxembourg, Netherlands, Poland, Romania, Serbia, Sweden, Slovenia, Slovakia, San Marino, Ukraine, , ",
+      "description": "Drought in Austria, Bosnia  and  Herzegovina, Belgium, Belarus, Switzerland, Czech Republic, Germany, Denmark, Spain, France, Croatia, Hungary, Ireland, Italy, Liechtenstein, Luxembourg, Netherlands, Poland, Romania, Serbia, Sweden, Slovenia, Slovakia, San Marino, Ukraine, , ",
+      "alertlevel": "Orange",
+      "alertscore": 2,
+      "fromdate": "2025-12-21T00:00:00",
+      "todate": "2026-09-18T00:00:00",
+      "country": "Austria, Bosnia & Herzegovina, Belgium, Belarus, Switzerland, Czech Republic, Germany, Denmark, Spain, France, Croatia, Hungary, Ireland, Italy, Liechtenstein, Luxembourg, Netherlands, Poland, Romania, Serbia, Sweden, Slovenia, Slovakia, San Marino, Ukraine, , ",
+      "iso3": "AUT",
+      "severitydata": {
+        "severity": 1431152.0,
+        "severitytext": "Medium impact for agricultural drought in 1431152 km2",
+        "severityunit": "km2"
+      },
+      "glide": "DR-2025-000239-ALB",
+      "geometry_source": "getgeometry-polygon",
+      "url_geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=DR&eventid=1018332&episodeid=21",
+      "url_report": "https://www.gdacs.org/report.aspx?eventid=1018332&episodeid=21&eventtype=DR",
+      "matched_azure_regions": [
+        "westeurope",
+        "northeurope",
+        "germanywestcentral",
+        "francecentral",
+        "switzerlandnorth",
+        "switzerlandwest",
+        "uksouth",
+        "ukwest",
+        "swedensouth",
+        "italynorth"
+      ]
+    }
+  ],
+  "ukwest": [
+    {
+      "eventtype": "DR",
+      "eventid": 1018332,
+      "episodeid": 21,
+      "eventname": "Europe-2026",
+      "name": "Drought in Austria, Bosnia  and  Herzegovina, Belgium, Belarus, Switzerland, Czech Republic, Germany, Denmark, Spain, France, Croatia, Hungary, Ireland, Italy, Liechtenstein, Luxembourg, Netherlands, Poland, Romania, Serbia, Sweden, Slovenia, Slovakia, San Marino, Ukraine, , ",
+      "description": "Drought in Austria, Bosnia  and  Herzegovina, Belgium, Belarus, Switzerland, Czech Republic, Germany, Denmark, Spain, France, Croatia, Hungary, Ireland, Italy, Liechtenstein, Luxembourg, Netherlands, Poland, Romania, Serbia, Sweden, Slovenia, Slovakia, San Marino, Ukraine, , ",
+      "alertlevel": "Orange",
+      "alertscore": 2,
+      "fromdate": "2025-12-21T00:00:00",
+      "todate": "2026-09-18T00:00:00",
+      "country": "Austria, Bosnia & Herzegovina, Belgium, Belarus, Switzerland, Czech Republic, Germany, Denmark, Spain, France, Croatia, Hungary, Ireland, Italy, Liechtenstein, Luxembourg, Netherlands, Poland, Romania, Serbia, Sweden, Slovenia, Slovakia, San Marino, Ukraine, , ",
+      "iso3": "AUT",
+      "severitydata": {
+        "severity": 1431152.0,
+        "severitytext": "Medium impact for agricultural drought in 1431152 km2",
+        "severityunit": "km2"
+      },
+      "glide": "DR-2025-000239-ALB",
+      "geometry_source": "getgeometry-polygon",
+      "url_geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=DR&eventid=1018332&episodeid=21",
+      "url_report": "https://www.gdacs.org/report.aspx?eventid=1018332&episodeid=21&eventtype=DR",
+      "matched_azure_regions": [
+        "westeurope",
+        "northeurope",
+        "germanywestcentral",
+        "francecentral",
+        "switzerlandnorth",
+        "switzerlandwest",
+        "uksouth",
+        "ukwest",
+        "swedensouth",
+        "italynorth"
+      ]
+    }
+  ],
+  "norwayeast": [],
+  "norwaywest": [],
+  "swedencentral": [],
+  "swedensouth": [
+    {
+      "eventtype": "DR",
+      "eventid": 1018332,
+      "episodeid": 21,
+      "eventname": "Europe-2026",
+      "name": "Drought in Austria, Bosnia  and  Herzegovina, Belgium, Belarus, Switzerland, Czech Republic, Germany, Denmark, Spain, France, Croatia, Hungary, Ireland, Italy, Liechtenstein, Luxembourg, Netherlands, Poland, Romania, Serbia, Sweden, Slovenia, Slovakia, San Marino, Ukraine, , ",
+      "description": "Drought in Austria, Bosnia  and  Herzegovina, Belgium, Belarus, Switzerland, Czech Republic, Germany, Denmark, Spain, France, Croatia, Hungary, Ireland, Italy, Liechtenstein, Luxembourg, Netherlands, Poland, Romania, Serbia, Sweden, Slovenia, Slovakia, San Marino, Ukraine, , ",
+      "alertlevel": "Orange",
+      "alertscore": 2,
+      "fromdate": "2025-12-21T00:00:00",
+      "todate": "2026-09-18T00:00:00",
+      "country": "Austria, Bosnia & Herzegovina, Belgium, Belarus, Switzerland, Czech Republic, Germany, Denmark, Spain, France, Croatia, Hungary, Ireland, Italy, Liechtenstein, Luxembourg, Netherlands, Poland, Romania, Serbia, Sweden, Slovenia, Slovakia, San Marino, Ukraine, , ",
+      "iso3": "AUT",
+      "severitydata": {
+        "severity": 1431152.0,
+        "severitytext": "Medium impact for agricultural drought in 1431152 km2",
+        "severityunit": "km2"
+      },
+      "glide": "DR-2025-000239-ALB",
+      "geometry_source": "getgeometry-polygon",
+      "url_geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=DR&eventid=1018332&episodeid=21",
+      "url_report": "https://www.gdacs.org/report.aspx?eventid=1018332&episodeid=21&eventtype=DR",
+      "matched_azure_regions": [
+        "westeurope",
+        "northeurope",
+        "germanywestcentral",
+        "francecentral",
+        "switzerlandnorth",
+        "switzerlandwest",
+        "uksouth",
+        "ukwest",
+        "swedensouth",
+        "italynorth"
+      ]
+    }
+  ],
+  "polandcentral": [],
+  "italynorth": [
+    {
+      "eventtype": "DR",
+      "eventid": 1018332,
+      "episodeid": 21,
+      "eventname": "Europe-2026",
+      "name": "Drought in Austria, Bosnia  and  Herzegovina, Belgium, Belarus, Switzerland, Czech Republic, Germany, Denmark, Spain, France, Croatia, Hungary, Ireland, Italy, Liechtenstein, Luxembourg, Netherlands, Poland, Romania, Serbia, Sweden, Slovenia, Slovakia, San Marino, Ukraine, , ",
+      "description": "Drought in Austria, Bosnia  and  Herzegovina, Belgium, Belarus, Switzerland, Czech Republic, Germany, Denmark, Spain, France, Croatia, Hungary, Ireland, Italy, Liechtenstein, Luxembourg, Netherlands, Poland, Romania, Serbia, Sweden, Slovenia, Slovakia, San Marino, Ukraine, , ",
+      "alertlevel": "Orange",
+      "alertscore": 2,
+      "fromdate": "2025-12-21T00:00:00",
+      "todate": "2026-09-18T00:00:00",
+      "country": "Austria, Bosnia & Herzegovina, Belgium, Belarus, Switzerland, Czech Republic, Germany, Denmark, Spain, France, Croatia, Hungary, Ireland, Italy, Liechtenstein, Luxembourg, Netherlands, Poland, Romania, Serbia, Sweden, Slovenia, Slovakia, San Marino, Ukraine, , ",
+      "iso3": "AUT",
+      "severitydata": {
+        "severity": 1431152.0,
+        "severitytext": "Medium impact for agricultural drought in 1431152 km2",
+        "severityunit": "km2"
+      },
+      "glide": "DR-2025-000239-ALB",
+      "geometry_source": "getgeometry-polygon",
+      "url_geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=DR&eventid=1018332&episodeid=21",
+      "url_report": "https://www.gdacs.org/report.aspx?eventid=1018332&episodeid=21&eventtype=DR",
+      "matched_azure_regions": [
+        "westeurope",
+        "northeurope",
+        "germanywestcentral",
+        "francecentral",
+        "switzerlandnorth",
+        "switzerlandwest",
+        "uksouth",
+        "ukwest",
+        "swedensouth",
+        "italynorth"
+      ]
+    }
+  ],
+  "spaincentral": [
+    {
+      "eventtype": "WF",
+      "eventid": 1029643,
+      "episodeid": 22,
+      "eventname": "",
+      "name": "Forest fires in Spain",
+      "description": "Forest fires in Spain",
+      "alertlevel": "Orange",
+      "alertscore": 2,
+      "fromdate": "2026-07-22T00:00:00",
+      "todate": "2026-07-30T00:00:00",
+      "country": "Spain",
+      "iso3": "ESP",
+      "severitydata": {
+        "severity": 66098.0,
+        "severitytext": "Orange impact for forestfire in 66098 ha",
+        "severityunit": "ha"
+      },
+      "glide": "WF-2026-000130-ESP",
+      "geometry_source": "getgeometry-polygon",
+      "url_geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=WF&eventid=1029643&episodeid=22",
+      "url_report": "https://www.gdacs.org/report.aspx?eventid=1029643&episodeid=22&eventtype=WF",
+      "matched_azure_regions": [
+        "spaincentral"
+      ]
+    },
+    {
+      "eventtype": "WF",
+      "eventid": 1029540,
+      "episodeid": 9,
+      "eventname": "",
+      "name": "Forest fires in Spain",
+      "description": "Forest fires in Spain",
+      "alertlevel": "Orange",
+      "alertscore": 2,
+      "fromdate": "2026-07-18T00:00:00",
+      "todate": "2026-07-25T00:00:00",
+      "country": "Spain",
+      "iso3": "ESP",
+      "severitydata": {
+        "severity": 31628.0,
+        "severitytext": "Orange impact for forestfire in 31628 ha",
+        "severityunit": "ha"
+      },
+      "glide": "WF-2026-000128-ESP",
+      "geometry_source": "getgeometry-polygon",
+      "url_geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=WF&eventid=1029540&episodeid=9",
+      "url_report": "https://www.gdacs.org/report.aspx?eventid=1029540&episodeid=9&eventtype=WF",
+      "matched_azure_regions": [
+        "spaincentral"
+      ]
+    }
+  ],
+  "eastus": [],
+  "eastus2": [],
+  "westus": [
+    {
+      "eventtype": "DR",
+      "eventid": 1014139,
+      "episodeid": 23,
+      "eventname": " Western USA - Mexico-2020",
+      "name": "Drought in Mexico, United States",
+      "description": "Drought in Mexico, United States",
+      "alertlevel": "Orange",
+      "alertscore": 2,
+      "fromdate": "2020-05-21T00:00:00",
+      "todate": "2021-01-30T00:00:00",
+      "country": "Mexico, United States",
+      "iso3": "MEX",
+      "severitydata": {
+        "severity": 170725.0,
+        "severitytext": "Medium impact for agricultural drought in 170725 km2",
+        "severityunit": "km2"
+      },
+      "glide": "",
+      "geometry_source": "getgeometry-polygon",
+      "url_geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=DR&eventid=1014139&episodeid=23",
+      "url_report": "https://www.gdacs.org/report.aspx?eventid=1014139&episodeid=23&eventtype=DR",
+      "matched_azure_regions": [
+        "westus",
+        "mexicocentral"
+      ]
+    }
+  ],
+  "westus2": [],
+  "westus3": [],
+  "centralus": [],
+  "northcentralus": [],
+  "southcentralus": [],
+  "westcentralus": [],
+  "canadacentral": [],
+  "canadaeast": [],
+  "brazilsouth": [
+    {
+      "eventtype": "FL",
+      "eventid": 1101205,
+      "episodeid": 6,
+      "eventname": "Brazil",
+      "name": "Flood in Brazil",
+      "description": "Flood in Brazil",
+      "alertlevel": "Orange",
+      "alertscore": 2,
+      "fromdate": "2021-11-08T01:00:00",
+      "todate": "2022-01-08T01:00:00",
+      "country": "Brazil",
+      "iso3": "BRA",
+      "severitydata": {
+        "severity": 0.0,
+        "severitytext": "Magnitude 0 ",
+        "severityunit": ""
+      },
+      "glide": "FL-2021-000204-BRA",
+      "geometry_source": "getgeometry-polygon",
+      "url_geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=FL&eventid=1101205&episodeid=6",
+      "url_report": "https://www.gdacs.org/report.aspx?eventid=1101205&episodeid=6&eventtype=FL",
+      "matched_azure_regions": [
+        "brazilsouth"
+      ]
+    }
+  ],
+  "mexicocentral": [
+    {
+      "eventtype": "DR",
+      "eventid": 1014149,
+      "episodeid": 10,
+      "eventname": " Central Mexico-2020",
+      "name": "Drought in Mexico",
+      "description": "Drought in Mexico",
+      "alertlevel": "Orange",
+      "alertscore": 2,
+      "fromdate": "2020-05-21T00:00:00",
+      "todate": "2021-05-20T00:00:00",
+      "country": "Mexico",
+      "iso3": "MEX",
+      "severitydata": {
+        "severity": 22868.0,
+        "severitytext": "Medium impact for agricultural drought in 22868 km2",
+        "severityunit": "km2"
+      },
+      "glide": "",
+      "geometry_source": "getgeometry-polygon",
+      "url_geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=DR&eventid=1014149&episodeid=10",
+      "url_report": "https://www.gdacs.org/report.aspx?eventid=1014149&episodeid=10&eventtype=DR",
+      "matched_azure_regions": [
+        "mexicocentral"
+      ]
+    },
+    {
+      "eventtype": "DR",
+      "eventid": 1014139,
+      "episodeid": 23,
+      "eventname": " Western USA - Mexico-2020",
+      "name": "Drought in Mexico, United States",
+      "description": "Drought in Mexico, United States",
+      "alertlevel": "Orange",
+      "alertscore": 2,
+      "fromdate": "2020-05-21T00:00:00",
+      "todate": "2021-01-30T00:00:00",
+      "country": "Mexico, United States",
+      "iso3": "MEX",
+      "severitydata": {
+        "severity": 170725.0,
+        "severitytext": "Medium impact for agricultural drought in 170725 km2",
+        "severityunit": "km2"
+      },
+      "glide": "",
+      "geometry_source": "getgeometry-polygon",
+      "url_geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=DR&eventid=1014139&episodeid=23",
+      "url_report": "https://www.gdacs.org/report.aspx?eventid=1014139&episodeid=23&eventtype=DR",
+      "matched_azure_regions": [
+        "westus",
+        "mexicocentral"
+      ]
+    }
+  ],
+  "eastasia": [
+    {
+      "eventtype": "TC",
+      "eventid": 1001294,
+      "episodeid": 13,
+      "eventname": "NOUL-26",
+      "name": "Tropical Cyclone NOUL-26",
+      "description": "Tropical Cyclone NOUL-26",
+      "alertlevel": "Orange",
+      "alertscore": 2,
+      "fromdate": "2026-07-23T06:00:00",
+      "todate": "2026-07-26T00:00:00",
+      "country": "China, Philippines",
+      "iso3": "CHN",
+      "severitydata": {
+        "severity": 157.4064,
+        "severitytext": "Hurricane/Typhoon > 74 mph (maximum wind speed of 157 km/h)",
+        "severityunit": "km/h"
+      },
+      "glide": "",
+      "geometry_source": "getgeometry-polygon",
+      "url_geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=TC&eventid=1001294&episodeid=13",
+      "url_report": "https://www.gdacs.org/report.aspx?eventid=1001294&episodeid=13&eventtype=TC",
+      "matched_azure_regions": [
+        "eastasia"
+      ]
+    },
+    {
+      "eventtype": "FL",
+      "eventid": 1103514,
+      "episodeid": 2,
+      "eventname": "",
+      "name": "Flood in China",
+      "description": "Flood in China",
+      "alertlevel": "Red",
+      "alertscore": 3,
+      "fromdate": "2025-09-23T01:00:00",
+      "todate": "2025-09-25T01:00:00",
+      "country": "China",
+      "iso3": "CHN",
+      "severitydata": {
+        "severity": 0.0,
+        "severitytext": "Magnitude 0 ",
+        "severityunit": ""
+      },
+      "glide": "FL-2025-000178-CHN",
+      "geometry_source": "getgeometry-polygon",
+      "url_geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=FL&eventid=1103514&episodeid=2",
+      "url_report": "https://www.gdacs.org/report.aspx?eventid=1103514&episodeid=2&eventtype=FL",
+      "matched_azure_regions": [
+        "eastasia"
+      ]
+    },
+    {
+      "eventtype": "TC",
+      "eventid": 1001211,
+      "episodeid": 25,
+      "eventname": "RAGASA-25",
+      "name": "Tropical Cyclone RAGASA-25",
+      "description": "Tropical Cyclone RAGASA-25",
+      "alertlevel": "Red",
+      "alertscore": 3,
+      "fromdate": "2025-09-18T12:00:00",
+      "todate": "2025-09-24T12:00:00",
+      "country": "Philippines, China",
+      "iso3": "CHN",
+      "severitydata": {
+        "severity": 268.5168,
+        "severitytext": "Hurricane/Typhoon > 74 mph (maximum wind speed of 269 km/h)",
+        "severityunit": "km/h"
+      },
+      "glide": "TC-2025-000170-PHL",
+      "geometry_source": "getgeometry-polygon",
+      "url_geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=TC&eventid=1001211&episodeid=25",
+      "url_report": "https://www.gdacs.org/report.aspx?eventid=1001211&episodeid=25&eventtype=TC",
+      "matched_azure_regions": [
+        "eastasia"
+      ]
+    },
+    {
+      "eventtype": "TC",
+      "eventid": 1001181,
+      "episodeid": 16,
+      "eventname": "WIPHA-25",
+      "name": "Tropical Cyclone WIPHA-25",
+      "description": "Tropical Cyclone WIPHA-25",
+      "alertlevel": "Orange",
+      "alertscore": 2,
+      "fromdate": "2025-07-18T12:00:00",
+      "todate": "2025-07-22T06:00:00",
+      "country": "China, Viet Nam, Philippines",
+      "iso3": "CHN",
+      "severitydata": {
+        "severity": 120.3696,
+        "severitytext": "Tropical Storm (maximum wind speed of 120 km/h)",
+        "severityunit": "km/h"
+      },
+      "glide": "",
+      "geometry_source": "getgeometry-polygon",
+      "url_geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=TC&eventid=1001181&episodeid=16",
+      "url_report": "https://www.gdacs.org/report.aspx?eventid=1001181&episodeid=16&eventtype=TC",
+      "matched_azure_regions": [
+        "eastasia"
+      ]
+    }
+  ],
+  "southeastasia": [
+    {
+      "eventtype": "FL",
+      "eventid": 1101219,
+      "episodeid": 1,
+      "eventname": "Malaysia",
+      "name": "Flood in Malaysia",
+      "description": "Flood in Malaysia",
+      "alertlevel": "Orange",
+      "alertscore": 2,
+      "fromdate": "2021-12-17T01:00:00",
+      "todate": "2021-12-19T01:00:00",
+      "country": "Malaysia",
+      "iso3": "MYS",
+      "severitydata": {
+        "severity": 0.0,
+        "severitytext": "Magnitude 0 ",
+        "severityunit": ""
+      },
+      "glide": "",
+      "geometry_source": "getgeometry-polygon",
+      "url_geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=FL&eventid=1101219&episodeid=1",
+      "url_report": "https://www.gdacs.org/report.aspx?eventid=1101219&episodeid=1&eventtype=FL",
+      "matched_azure_regions": [
+        "southeastasia"
+      ]
+    }
+  ],
+  "japaneast": [
+    {
+      "eventtype": "FL",
+      "eventid": 1101571,
+      "episodeid": 2,
+      "eventname": "Japan",
+      "name": "Flood in Japan",
+      "description": "Flood in Japan",
+      "alertlevel": "Orange",
+      "alertscore": 2,
+      "fromdate": "2022-08-03T01:00:00",
+      "todate": "2022-08-15T01:00:00",
+      "country": "Japan",
+      "iso3": "JPN",
+      "severitydata": {
+        "severity": 0.0,
+        "severitytext": "Magnitude 0 ",
+        "severityunit": ""
+      },
+      "glide": "FL-2022-000288-JPN",
+      "geometry_source": "getgeometry-polygon",
+      "url_geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=FL&eventid=1101571&episodeid=2",
+      "url_report": "https://www.gdacs.org/report.aspx?eventid=1101571&episodeid=2&eventtype=FL",
+      "matched_azure_regions": [
+        "japaneast"
+      ]
+    }
+  ],
+  "japanwest": [],
+  "koreacentral": [],
+  "koreasouth": [],
+  "centralindia": [
+    {
+      "eventtype": "FL",
+      "eventid": 1100883,
+      "episodeid": 4,
+      "eventname": "India",
+      "name": "Flood in India",
+      "description": "Flood in India",
+      "alertlevel": "Orange",
+      "alertscore": 2,
+      "fromdate": "2021-05-11T01:00:00",
+      "todate": "2021-05-17T01:00:00",
+      "country": "India",
+      "iso3": "IND",
+      "severitydata": {
+        "severity": 0.0,
+        "severitytext": "Magnitude 0 ",
+        "severityunit": ""
+      },
+      "glide": "",
+      "geometry_source": "getgeometry-polygon",
+      "url_geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=FL&eventid=1100883&episodeid=4",
+      "url_report": "https://www.gdacs.org/report.aspx?eventid=1100883&episodeid=4&eventtype=FL",
+      "matched_azure_regions": [
+        "centralindia",
+        "southindia",
+        "westindia"
+      ]
+    }
+  ],
+  "southindia": [
+    {
+      "eventtype": "FL",
+      "eventid": 1101164,
+      "episodeid": 2,
+      "eventname": "India",
+      "name": "Flood in India",
+      "description": "Flood in India",
+      "alertlevel": "Orange",
+      "alertscore": 2,
+      "fromdate": "2021-11-14T01:00:00",
+      "todate": "2021-11-18T01:00:00",
+      "country": "India",
+      "iso3": "IND",
+      "severitydata": {
+        "severity": 0.0,
+        "severitytext": "Magnitude 0 ",
+        "severityunit": ""
+      },
+      "glide": "",
+      "geometry_source": "getgeometry-polygon",
+      "url_geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=FL&eventid=1101164&episodeid=2",
+      "url_report": "https://www.gdacs.org/report.aspx?eventid=1101164&episodeid=2&eventtype=FL",
+      "matched_azure_regions": [
+        "southindia"
+      ]
+    },
+    {
+      "eventtype": "FL",
+      "eventid": 1100902,
+      "episodeid": 1,
+      "eventname": "Bangladesh, India",
+      "name": "Flood in Bangladesh, India",
+      "description": "Flood in Bangladesh, India",
+      "alertlevel": "Red",
+      "alertscore": 3,
+      "fromdate": "2021-05-24T01:00:00",
+      "todate": "2021-05-31T01:00:00",
+      "country": "Bangladesh, India",
+      "iso3": "BGD",
+      "severitydata": {
+        "severity": 0.0,
+        "severitytext": "Magnitude 0 ",
+        "severityunit": ""
+      },
+      "glide": "",
+      "geometry_source": "getgeometry-polygon",
+      "url_geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=FL&eventid=1100902&episodeid=1",
+      "url_report": "https://www.gdacs.org/report.aspx?eventid=1100902&episodeid=1&eventtype=FL",
+      "matched_azure_regions": [
+        "southindia"
+      ]
+    },
+    {
+      "eventtype": "FL",
+      "eventid": 1100883,
+      "episodeid": 4,
+      "eventname": "India",
+      "name": "Flood in India",
+      "description": "Flood in India",
+      "alertlevel": "Orange",
+      "alertscore": 2,
+      "fromdate": "2021-05-11T01:00:00",
+      "todate": "2021-05-17T01:00:00",
+      "country": "India",
+      "iso3": "IND",
+      "severitydata": {
+        "severity": 0.0,
+        "severitytext": "Magnitude 0 ",
+        "severityunit": ""
+      },
+      "glide": "",
+      "geometry_source": "getgeometry-polygon",
+      "url_geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=FL&eventid=1100883&episodeid=4",
+      "url_report": "https://www.gdacs.org/report.aspx?eventid=1100883&episodeid=4&eventtype=FL",
+      "matched_azure_regions": [
+        "centralindia",
+        "southindia",
+        "westindia"
+      ]
+    }
+  ],
+  "westindia": [
+    {
+      "eventtype": "TC",
+      "eventid": 1000782,
+      "episodeid": 15,
+      "eventname": "TAUKTAE-21",
+      "name": "Tropical Cyclone TAUKTAE-21",
+      "description": "Tropical Cyclone TAUKTAE-21",
+      "alertlevel": "Red",
+      "alertscore": 3,
+      "fromdate": "2021-05-14T06:00:00",
+      "todate": "2021-05-17T18:00:00",
+      "country": "India, Pakistan",
+      "iso3": "IND",
+      "severitydata": {
+        "severity": 222.2208,
+        "severitytext": "Hurricane/Typhoon > 74 mph (maximum wind speed of 222 km/h)",
+        "severityunit": "km/h"
+      },
+      "glide": "TC-2021-000056-IND",
+      "geometry_source": "getgeometry-polygon",
+      "url_geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=TC&eventid=1000782&episodeid=15",
+      "url_report": "https://www.gdacs.org/report.aspx?eventid=1000782&episodeid=15&eventtype=TC",
+      "matched_azure_regions": [
+        "westindia"
+      ]
+    },
+    {
+      "eventtype": "FL",
+      "eventid": 1100883,
+      "episodeid": 4,
+      "eventname": "India",
+      "name": "Flood in India",
+      "description": "Flood in India",
+      "alertlevel": "Orange",
+      "alertscore": 2,
+      "fromdate": "2021-05-11T01:00:00",
+      "todate": "2021-05-17T01:00:00",
+      "country": "India",
+      "iso3": "IND",
+      "severitydata": {
+        "severity": 0.0,
+        "severitytext": "Magnitude 0 ",
+        "severityunit": ""
+      },
+      "glide": "",
+      "geometry_source": "getgeometry-polygon",
+      "url_geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=FL&eventid=1100883&episodeid=4",
+      "url_report": "https://www.gdacs.org/report.aspx?eventid=1100883&episodeid=4&eventtype=FL",
+      "matched_azure_regions": [
+        "centralindia",
+        "southindia",
+        "westindia"
+      ]
+    }
+  ],
+  "australiaeast": [],
+  "australiasoutheast": [],
+  "australiacentral": [],
+  "newzealandnorth": [],
+  "southafricanorth": [
+    {
+      "eventtype": "FL",
+      "eventid": 1103323,
+      "episodeid": 1,
+      "eventname": "",
+      "name": "Flood in South Africa",
+      "description": "Flood in South Africa",
+      "alertlevel": "Orange",
+      "alertscore": 2,
+      "fromdate": "2025-06-09T01:00:00",
+      "todate": "2025-06-14T01:00:00",
+      "country": "South Africa",
+      "iso3": "ZAF",
+      "severitydata": {
+        "severity": 0.0,
+        "severitytext": "Magnitude 0 ",
+        "severityunit": ""
+      },
+      "glide": "FL-2025-000089-ZAF",
+      "geometry_source": "getgeometry-polygon",
+      "url_geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=FL&eventid=1103323&episodeid=1",
+      "url_report": "https://www.gdacs.org/report.aspx?eventid=1103323&episodeid=1&eventtype=FL",
+      "matched_azure_regions": [
+        "southafricanorth"
+      ]
+    }
+  ],
+  "qatarcentral": [],
+  "uaenorth": [
+    {
+      "eventtype": "EQ",
+      "eventid": 1328816,
+      "episodeid": 1451301,
+      "eventname": "",
+      "name": "Earthquake in Islamic Republic of Iran",
+      "description": "Earthquake in Islamic Republic of Iran",
+      "alertlevel": "Orange",
+      "alertscore": 2,
+      "fromdate": "2022-07-01T23:25:14",
+      "todate": "2022-07-01T23:25:14",
+      "country": "Islamic Republic of Iran",
+      "iso3": "IRN",
+      "severitydata": {
+        "severity": 6.0,
+        "severitytext": "Magnitude 6M, Depth:10km",
+        "severityunit": "M"
+      },
+      "glide": "EQ-2022-000248-IRN",
+      "geometry_source": "getgeometry-polygon",
+      "url_geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=EQ&eventid=1328816&episodeid=1451301",
+      "url_report": "https://www.gdacs.org/report.aspx?eventid=1328816&episodeid=1451301&eventtype=EQ",
+      "matched_azure_regions": [
+        "uaenorth"
+      ]
+    },
+    {
+      "eventtype": "EQ",
+      "eventid": 1328800,
+      "episodeid": 1451283,
+      "eventname": "",
+      "name": "Earthquake in Islamic Republic of Iran",
+      "description": "Earthquake in Islamic Republic of Iran",
+      "alertlevel": "Orange",
+      "alertscore": 2,
+      "fromdate": "2022-07-01T21:32:07",
+      "todate": "2022-07-01T21:32:07",
+      "country": "Islamic Republic of Iran",
+      "iso3": "IRN",
+      "severitydata": {
+        "severity": 6.0,
+        "severitytext": "Magnitude 6M, Depth:16km",
+        "severityunit": "M"
+      },
+      "glide": "EQ-2022-000248-IRN",
+      "geometry_source": "getgeometry-polygon",
+      "url_geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=EQ&eventid=1328800&episodeid=1451283",
+      "url_report": "https://www.gdacs.org/report.aspx?eventid=1328800&episodeid=1451283&eventtype=EQ",
+      "matched_azure_regions": [
+        "uaenorth"
+      ]
+    },
+    {
+      "eventtype": "EQ",
+      "eventid": 1328006,
+      "episodeid": 1450328,
+      "eventname": "",
+      "name": "Earthquake in Islamic Republic of Iran",
+      "description": "Earthquake in Islamic Republic of Iran",
+      "alertlevel": "Orange",
+      "alertscore": 2,
+      "fromdate": "2022-06-25T03:37:13",
+      "todate": "2022-06-25T03:37:13",
+      "country": "Islamic Republic of Iran",
+      "iso3": "IRN",
+      "severitydata": {
+        "severity": 5.6,
+        "severitytext": "Magnitude 5.6M, Depth:10km",
+        "severityunit": "M"
+      },
+      "glide": "EQ-2022-000237-IRN",
+      "geometry_source": "getgeometry-polygon",
+      "url_geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=EQ&eventid=1328006&episodeid=1450328",
+      "url_report": "https://www.gdacs.org/report.aspx?eventid=1328006&episodeid=1450328&eventtype=EQ",
+      "matched_azure_regions": [
+        "uaenorth"
+      ]
+    }
+  ]
+}
